@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>strona</title>
+  <title>Inclined Plane Simulation</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -22,58 +22,58 @@
     <span class="error"></span>
 
     <div class="setting">
+      <input type="checkbox" id="dark-mode">
+      <label for="dark-mode">Dark Mode</label>
+    </div>
+
+    <div class="setting">
       <input type="checkbox" id="display-vectors" checked="true">
-      <label for="display-vectors">Wyświetl wektory</label>
+      <label for="display-vectors">Display Vectors</label>
     </div>
     <br>
 
     <div class="setting">
-      <label for="angle">Kąt nachylenia [°]:</label>
+      <label for="angle">Angle [°]:</label>
       <input type="text" value="30" size="5" id="angle">
     </div>
-    
+
     <div class="setting">
-      <label for="height">Wysokość [m]:</label>
+      <label for="height">Height [m]:</label>
       <input type="text" value="3" size="5" id="height">
     </div>
 
-    <!-- <div class="setting">
-      <label for="pi">Wartość PI:</label>
-      <input type="text" value="5" size="5" id="pi" disabled>
-    </div> -->
-
     <div class="setting">
-      <label for="initial-velocity">Prędkość początkowa [m/s]:</label>
+      <label for="initial-velocity">Initial Velocity [m/s]:</label>
       <input type="text" value="0" size="5" id="initial-velocity">
     </div>
 
     <div class="setting">
-      <label for="size">Rozmiar bloczka [m]:</label>
+      <label for="size">Block Size [m]:</label>
       <input type="text" value="0.5" size="5" id="size">
     </div>
 
     <div class="setting">
-      <label for="gravity">Przyspieszenie grawitacyjne [m/s^2]:</label>
+      <label for="gravity">Gravity [m/s^2]:</label>
       <input type="text" value="9.81" size="5" id="gravity">
     </div>
 
     <div class="setting">
-      <label for="energy">Zachowana energia przy odbiciu [%]:</label>
+      <label for="energy">Energy Retained [%]:</label>
       <input type="text" value="100" size="5" id="energy">
     </div>
 
     <div class="setting">
-      <label for="friction">Współczynnik tarcia:</label>
+      <label for="friction">Friction Coefficient:</label>
       <input type="text" value="0.5" size="5" id="friction">
     </div>
 
     <div class="setting">
-      <label for="time-speed">Prędkość czasu [s/s]:</label>
+      <label for="time-speed">Time Speed [s/s]:</label>
       <input type="text" value="1" size="5" id="time-speed">
     </div>
 
     <div class="setting">
-      <label for="scale">Skala [piks/m]:</label>
+      <label for="scale">Scale [px/m]:</label>
       <input type="text" value="150" size="5" id="scale">
     </div>
 
@@ -88,6 +88,6 @@
     <canvas id="graph"></canvas>
   </div>
 
-  <script src="index.js" type="module"></script>
+  <script src="src/index.js" type="module"></script>
 </body>
 </html>
