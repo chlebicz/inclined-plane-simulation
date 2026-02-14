@@ -1,0 +1,12 @@
+{
+  "name": "physics-simulation",
+  "version": "1.0.0",
+  "description": "Physics simulation of a block on an inclined plane",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
