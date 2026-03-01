@@ -11,6 +11,9 @@ A physics simulation of a block sliding on an inclined plane, built with vanilla
   <img src="screenshots/3.png" alt="Screenshot - example velocity graph" width="30%">
 </div>
 
+## Live version
+Check out the [live version](https://rownia-pochyla.netlify.app/)!
+
 ## Features
 
 - **Interactive Simulation**: Adjust angle, height, friction, initial velocity, and more.
